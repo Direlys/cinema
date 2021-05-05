@@ -36,15 +36,6 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../reservation/reservation.php">Réservation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Affiche/Affiche.php">A l'affiche</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../inscription/inscription.php">Inscription</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="../connexion/connexion.php">Connexion</a>
           </li>
         </ul>

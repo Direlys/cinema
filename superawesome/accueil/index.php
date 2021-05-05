@@ -49,6 +49,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">.
+			<a class="navbar-brand" href="../accueil/index.php">Cinema Project</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -57,11 +58,12 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
 
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
+
 					<?php if (isset($_SESSION['login'])){
 					echo'	<li class="nav-item">
+	            		<a class="nav-link" href="../reservation/reservation.php">Reservation</a>
+	          		</li>
+								<li class="nav-item">
 	            		<a class="nav-link" href="../modif/modif.php">Modification</a>
 	          		</li>
 								<li class="nav-item">
@@ -70,12 +72,13 @@
 
 											echo'	<li class="nav-item">
 											<a class="nav-link" href="../connexion/connexion.php">Connexion</a>
-											</li>';
+											</li>
+											<li class="nav-item">
+						            <a class="nav-link" href="../inscription/inscription.php">Inscription</a>
+						          </li>';
 										}
 						?>
-          <li class="nav-item">
-            <a class="nav-link" href="../inscription/inscription.php">Inscription</a>
-          </li>
+
         </ul>
       </div>
     </div>
@@ -145,6 +148,12 @@
 
 <footer>
 
+	<div class="container">
+		<iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=France,%20Dugny+(Dugny)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="container">
+		<iframe   width="100%" height="390" frameborder="0" src="https://meteofrance.com/widget/prevision/930300##00000096%22%3E" </iframe>
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-10 mx-auto">
